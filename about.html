@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>About Me</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            margin: 0;
+            flex-grow: 1;
+        }
+        .header a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+
 </head>
 <body>
-	<h1>About Me</h1>
-	<p>halaman ini berisi tentang saya</p>
+<div class="header">
+        <h1>About Me</h1>
+	<a href="about.html">About Me</a>
+	<a href="contact-us.html">Contact Us</a>
+    </div>
+	<p>Berikut adalah data diri saya sebagai seorang mahasiswa:</p>
     <table border="1" cellspacing="0" cellpadding="5">
         <tr>
             <!-- td = tabel data -->
@@ -31,15 +69,5 @@
             <td>Universitas Sumatera Utara</td>
         </tr>
     </table>
-        
-    <h4>Halaman lain</h4>
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="contact-us.html">Contact Us</a>
-        </li>
-    </ul>
 </body>
 </html>

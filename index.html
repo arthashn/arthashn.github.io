@@ -12,8 +12,25 @@
             padding: 20px;
             text-align: center;
         }
-        h1 {
-            color: #333;
+        .header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            margin: 0;
+            flex-grow: 1;
+        }
+        .header a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px;
         }
         h2 {
             color: #555;
@@ -22,44 +39,19 @@
             font-size: 18px;
             color: #666;
         }
-        .kotak {
-            width: 200px;
-            height: 200px;
-            background-color: #3498db;
-            color: white;
-            text-align: center;
-            line-height: 200px;
-            margin: auto;
-            border-radius: 10px;
-        }
-        .nav-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 20px;
-        }
-        .nav-container a {
-            text-decoration: none;
-            color: #3498db;
-            font-size: 18px;
-            font-weight: bold;
-            padding: 10px;
-        }
     </style>
 </head>
 <body>
 
-    <div class="nav-container">
-        <a href="about.html">About Me</a>
+    <div class="header">
         <h1>Perpustakaan Artha Anggita Siahaan</h1>
+        <a href="about.html">About Me</a>
         <a href="contact-us.html">Contact Us</a>
     </div>
     
     <h2>Selamat datang di Perpustakaan Artha Anggita Siahaan</h2>
     <p>Saya membangun website perpustakaan ini untuk pemenuhan tugas mata kuliah <b>Pengembangan Web Perpustakaan Praktik</b> dan meningkatkan pemahaman saya tentang <i>website.</i>
         Website ini merupakan proyek pertama saya dalam pengembangan website dimana nantinya website ini berisi sumber daya pengetahuan. Semoga website ini dapat berguna bagi pengunjung :). <b>Terima Kasih</b></p>
-
-    <div class="kotak">Kotak Biru</div>
     
     <ul>
         <li>

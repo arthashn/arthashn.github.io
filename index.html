@@ -1,29 +1,28 @@
-<div class="kotak">Kotak Biru</div><!DOCTYPE html>
-<html lang="id">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perpustakaan Artha Anggita Siahaan</title>
-<style>
+    <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 20px;
             padding: 20px;
+            text-align: center;
         }
         h1 {
-            color: #bab58c;
-            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #555;
         }
         p {
             font-size: 18px;
             color: #666;
         }
-        div {
-            position: absolute;
-            top: 10px;
-            left: 50%;
-            transform: translateX(-50%);
+        .kotak {
             width: 200px;
             height: 200px;
             background-color: #3498db;
@@ -33,15 +32,40 @@
             margin: auto;
             border-radius: 10px;
         }
-    
-</style>
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .nav-container a {
+            text-decoration: none;
+            color: #3498db;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Perpustakaan Artha Anggita Siahaan</h1>
-<p>Selamat datang di Perpustakaan Artha Anggita Siahaan</p>
-<div>Saya membangun website perpustakaan ini untuk pemenuhan tugas mata kuliah <b>Pengembangan Web Perpustakaan Praktik</b> dan meningkatkan pemahaman saya tentang <i>website.</i>
-   Website ini merupakan proyek pertama saya dalam pengembangan website dimana nantinya website ini berisi sumber daya pengetahuan. Semoga website ini dapat berguna bagi pengunjung :). <b>Terima Kasih</b> </div>
+    <div class="nav-container">
+        <a href="about.html">About Me</a>
+        <h1>Perpustakaan Artha Anggita Siahaan</h1>
+        <a href="contact-us.html">Contact Us</a>
+    </div>
     
+    <h2>Selamat datang di Perpustakaan Artha Anggita Siahaan</h2>
+    <p>Saya membangun website perpustakaan ini untuk pemenuhan tugas mata kuliah <b>Pengembangan Web Perpustakaan Praktik</b> dan meningkatkan pemahaman saya tentang <i>website.</i>
+        Website ini merupakan proyek pertama saya dalam pengembangan website dimana nantinya website ini berisi sumber daya pengetahuan. Semoga website ini dapat berguna bagi pengunjung :). <b>Terima Kasih</b></p>
+
+    <div class="kotak">Kotak Biru</div>
+    
+    <ul>
+        <li>
+            <a href="https://lib.ugm.ac.id/">Colaboration with UGM Library</a>
+        </li>
+    </ul>
+
 </body>
-</html> 
+</html>

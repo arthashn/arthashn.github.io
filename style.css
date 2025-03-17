@@ -80,3 +80,28 @@ ul li a[href="https://lib.ugm.ac.id/"] {
 ul li a[href="https://lib.ugm.ac.id/"]:hover {
     color: #0c56a0;
 }
+
+footer {
+    background-color: #d6c68b;  
+    color: white;            
+    text-align: center;     
+    padding: 20px 0;         
+    position: relative;
+    bottom: 0;
+    width: 100%;           
+}
+
+footer p {
+    font-size: 1em;
+    margin: 0;
+}
+
+footer a {
+    color: #4CAF50;         
+    text-decoration: none;  
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}

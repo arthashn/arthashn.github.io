@@ -1,43 +1,82 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 20px;
-            padding: 20px;
-            text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
 }
 
 .header {
-            background-color: #3498db;
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
 .header h1 {
-            margin: 0;
-            flex-grow: 1;
+    margin-bottom: 10px;
+    font-size: 2.5em;
 }
-        
+
 .header a {
-            text-decoration: none;
-            color: white;
-            font-size: 18px;
-            font-weight: bold;
-            padding: 10px;
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
 }
-        
+
+.header a:hover {
+    text-decoration: underline;
+}
+
 h2 {
-            color: #555;
-            margin-top: 30px; 
-            margin-bottom: 20px;
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
 }
 
 p {
-            font-size: 18px;
-            color: #666;
-            margin-top: 30px; 
-            margin-bottom: 20px;
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+ul li a:hover {
+    color: #4CAF50; /* Warna hijau ketika link di hover */
+    text-decoration: underline;
+}
+
+ul li a[href="https://lib.ugm.ac.id/"] {
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+ul li a[href="https://lib.ugm.ac.id/"]:hover {
+    color: #0c56a0;
 }

@@ -17,3 +17,4 @@ document.addEventListener("DOMContentLoaded", function() {
 document.getElementById("ugmButton").addEventListener("click", function() {
     window.open("https://lib.ugm.ac.id/", "_blank");
 });
+

@@ -50,28 +50,6 @@ p {
     text-align: justify;
 }
 
-ul {
-    list-style: none;
-    margin-top: 20px;
-    text-align: center;
-}
-
-ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-ul li a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-ul li a:hover {
-    color: #4CAF50;
-    text-decoration: underline;
-}
-
 ul li a[href="https://lib.ugm.ac.id/"] {
     font-weight: bold;
     color: #1a73e8;
@@ -80,6 +58,30 @@ ul li a[href="https://lib.ugm.ac.id/"] {
 ul li a[href="https://lib.ugm.ac.id/"]:hover {
     color: #0c56a0;
 }
+
+table {
+            margin: 20px auto;
+            width: 60%;
+            border-collapse: collapse;
+            background-color: #ffffff; /* Background tabel putih */
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+		 text-align: center;
+        }
+        th {
+            background-color: #006400; /* Warna hijau tua */
+            color: white;
+            padding: 10px;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Warna abu-abu muda */
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff; /* Warna putih */
+        }
 
 footer {
     background-color: #688a9e;  

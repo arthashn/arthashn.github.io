@@ -7,13 +7,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f7eecb;
+    background-color: #f0f1f2;
     color: #333;
     padding: 20px;
 }
 
 .header {
-    background-color: #d6c68b;
+    background-color: #688a9e;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -40,7 +40,7 @@ h2 {
     font-size: 2em;
     margin-top: 20px;
     text-align: center;
-    color: #c2b067;
+    color: ##688a9e;
 }
 
 p {

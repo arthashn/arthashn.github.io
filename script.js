@@ -1,3 +1,20 @@
+function updateDateTime() {
+    let options = { 
+        weekday: 'long', 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric', 
+        hour: '2-digit', 
+        minute: '2-digit', 
+        second: '2-digit'
+    };
+    let now = new Date().toLocaleString("id-ID", options);
+    document.getElementById("datetime").innerHTML = now;
+}
+
+setInterval(updateDateTime, 1000); // Perbarui setiap 1 detik
+updateDateTime(); // Jalankan pertama kali agar tidak kosong
+
 document.addEventListener("DOMContentLoaded", function() {
     let line = document.getElementById("animatedLine");
     let growing = true;
@@ -16,12 +33,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.getElementById("ugmButton").addEventListener("click", function() {
     window.open("https://lib.ugm.ac.id/", "_blank");
-});
-
-function updateDateTime() {
-    let now = new Date();
-    document.getElementById("datetime").innerHTML = now.toLocaleString();
-}
-
-setInterval(updateDateTime, 1000);
 });

@@ -12,6 +12,11 @@ body {
     padding: 20px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 .header {
     background-color: #688a9e;
     color: white;

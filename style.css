@@ -32,10 +32,6 @@ body {
     font-size: 1.1em;
 }
 
-.header p {
-    margin-top: 5px;
-    font-size: 14px;
-}
 .header a:hover {
     text-decoration: underline;
 }
@@ -46,6 +42,15 @@ h2 {
     text-align: center;
     color: ##688a9e;
 }
+
+
+p {
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+    text-align: justify;
+}
+
 
 #datetime {
     font-size: 1em;

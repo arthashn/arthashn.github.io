@@ -47,11 +47,11 @@ h2 {
     color: ##688a9e;
 }
 
-p {
+#datetime {
     font-size: 1.2em;
-    margin: 20px auto;
-    width: 80%;
-    text-align: justify;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
 }
 
 ul li a[href="https://lib.ugm.ac.id/"] {

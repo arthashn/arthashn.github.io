@@ -5,7 +5,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    display: flex;
+	justify-content: center;
+	font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0f1f2;
     color: #333;

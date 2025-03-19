@@ -48,10 +48,16 @@ h2 {
 }
 
 #datetime {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     color: white;
+    display: inline-block;
+    background-color: #34495e;
+    padding: 5px 10px;
+    border-radius: 5px;
     margin-top: 10px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 ul li a[href="https://lib.ugm.ac.id/"] {

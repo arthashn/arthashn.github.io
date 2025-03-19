@@ -60,6 +60,22 @@ h2 {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
+.nav-links {
+    margin-top: 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
 ul li a[href="https://lib.ugm.ac.id/"] {
     font-weight: bold;
     color: #1a73e8;

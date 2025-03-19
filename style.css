@@ -85,40 +85,6 @@ table {
         }
 
 
-form {
-    		display: flex;
-    		flex-direction: column;
-    		text-align: left;
-}
-
-	label {
-    		font-weight: bold;
-   		margin-top: 10px;
-	}
-
-	input, textarea {
-    		width: 100%;
-   		padding: 10px;
-    		margin-top: 5px;
-    		border: 1px solid #ccc;
-    		border-radius: 5px;
-	}
-
-	button {
-    		margin-top: 15px;
-    		padding: 10px;
-    		background-color: #3d3d5c;
-    		color: white;
-    		border: none;
-    		border-radius: 5px;
-    		cursor: pointer;
-	}
-
-	button:hover {
-    		background-color: #2c2c44;
-	}
-
-
 footer {
     background-color: #688a9e;  
     color: white;        

@@ -178,6 +178,16 @@ h2 {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   margin-bottom: 20px;
+	width: 100%;
+	max-width: 360px;
+	flex: 1 1 45%;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .card img {

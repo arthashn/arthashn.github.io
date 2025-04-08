@@ -210,14 +210,3 @@ footer p {
   color: #555;
   margin-bottom: 5px;
 }
-
-@media (max-width: 768px) {
-  .card-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    max-width: 90%;
-  }
-}

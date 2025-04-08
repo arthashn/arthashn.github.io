@@ -10,6 +10,7 @@ body {
     background-color: #f0f1f2;
     color: #333;
     padding: 20px;
+ 	padding-bottom: 80px;
 }
 
 .header {
@@ -107,25 +108,6 @@ table {
         }
 
 
-footer {
-    background-color: #688a9e;  
-    color: white;        
-    font-weight: bold;
-    text-align: center;     
-    padding: 20px 0;         
-    position: fixed;
-    bottom: 0;
-    width: 100%;           
-}
-
-footer p {
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0;
-    text-align: justify;
-}
-
-
 #animatedLine {
     width: 50px;
     height: 5px;
@@ -163,12 +145,16 @@ footer p {
 .kegiatan-container {
   max-width: 800px;
   margin: auto;
+	padding: 0 20px;
 }
 
-h2 {
-  color: #003399;
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
-
+	
 .card {
   display: flex;
   flex-direction: column;
@@ -181,13 +167,6 @@ h2 {
 	width: 100%;
 	max-width: 360px;
 	flex: 1 1 45%;
-}
-
-.card-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
 }
 
 .card img {
@@ -212,4 +191,32 @@ h2 {
   color: #555;
   margin-bottom: 5px;
 }
+	
+footer {
+    background-color: #688a9e;  
+    color: white;        
+    font-weight: bold;
+    text-align: center;     
+    padding: 20px 0;         
+    position: fixed;
+    bottom: 0;
+    width: 100%;           
+}
 
+footer p {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    text-align: justify;
+}
+	
+@media (max-width: 768px) {
+  .card-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+}

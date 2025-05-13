@@ -1,3 +1,4 @@
+
 {
     margin: 0;
     padding: 0;
@@ -41,7 +42,7 @@ h2 {
     font-size: 2em;
     margin-top: 20px;
     text-align: center;
-    color: ##688a9e;
+    color: #688a9e;
 }
 
 #datetime {
@@ -82,57 +83,6 @@ ul li a[href="https://lib.ugm.ac.id/"]:hover {
     color: #0c56a0;
 }
 
-.news-section {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.news-section h2 {
-    font-size: 28px;
-    margin-bottom: 30px;
-}
-
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.news-card {
-    background-color: white;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    overflow: hidden;
-    transition: transform 0.3s;
-}
-
-.news-card:hover {
-    transform: translateY(-5px);
-}
-
-.news-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.news-info {
-    padding: 15px;
-    text-align: left;
-}
-
-.news-info h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #002366;
-}
-
-.news-info p {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
 
 table {
             margin: 20px auto;
@@ -212,3 +162,55 @@ footer p {
     background-color: #0056b3;
 }
 
+
+.news-container {
+  max-width: 800px;
+  margin: auto;
+	padding: 0 20px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+	
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+	width: 100%;
+	max-width: 360px;
+	flex: 1 1 45%;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 16px;
+  color: #0056cc;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-info {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}

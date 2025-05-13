@@ -170,15 +170,16 @@ footer p {
 }
 
 .card-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-	padding-top: 30px;
-	padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px 20px 100px; 
 }
 	
 .card {
+  flex: 1 1 300px; /* fleksibel lebar minimal 300px */
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   border: 1px solid #ddd;
@@ -186,10 +187,6 @@ footer p {
   overflow: hidden;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
-	width: 100%;
-	max-width: 360px;
-	flex: 1 1 45%;
 }
 
 .card img {

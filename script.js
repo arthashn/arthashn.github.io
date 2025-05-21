@@ -31,6 +31,42 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 1000);
 });
 
+function setCookie(name, value, days) {
+    const d = new Date();
+    d.setTime(d.getTime() + days*24*60*60*1000);
+    document.cookie = name + "=" + value + ";path=/;expires=" + d.toUTCString();
+  }
+
+  function getCookie(name) {
+    const cname = name + "=";
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const ca = decodedCookie.split(';');
+    for(let i = 0; i < ca.length; i++) {
+      let c = ca[i].trim();
+      if (c.indexOf(cname) === 0) {
+        return c.substring(cname.length, c.length);
+      }
+    }
+    return "";
+  }
+
+  function acceptCookies() {
+    setCookie("userConsent", "accepted", 365);
+    document.getElementById("cookie-consent").style.display = "none";
+  }
+
+  function manageCookies() {
+    window.location.href = "pengaturan-cookies.html"; // GANTI ALERT DENGAN INI
+  }
+
+  window.onload = function() {
+    if(getCookie("userConsent") !== "accepted") {
+      document.getElementById("cookie-consent").style.display = "block";
+    }
+  };
+
+
 document.getElementById("ugmButton").addEventListener("click", function() {
     window.open("https://lib.ugm.ac.id/", "_blank");
 });
+

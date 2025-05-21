@@ -222,3 +222,58 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     font-size: 14px;
     text-align: center;
 }
+
+ #cookie-consent {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    max-width: 350px;
+    background-color: #d0e8f2;
+    border-left: 6px solid #2a659f;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    padding: 18px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0b1a2d;
+    z-index: 9999;
+  }
+  #cookie-consent p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  #cookie-consent a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  #cookie-consent a:hover {
+    text-decoration: underline;
+  }
+  #cookie-buttons {
+    text-align: right;
+  }
+  #cookie-consent button {
+    border: none;
+    padding: 8px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 8px;
+    transition: background-color 0.3s ease;
+  }
+  #accept-btn {
+    background-color: #2a659f;
+    color: white;
+  }
+  #accept-btn:hover {
+    background-color: #244f7d;
+  }
+  #settings-btn {
+    background-color: #e2e8f0;
+    color: #2a659f;
+  }
+  #settings-btn:hover {
+    background-color: #cbd5e1;
+  }

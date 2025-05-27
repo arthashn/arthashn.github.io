@@ -50,21 +50,6 @@ function setCookie(name, value, days) {
     return "";
   }
 
-  function acceptCookies() {
-    setCookie("userConsent", "accepted", 365);
-    document.getElementById("cookie-consent").style.display = "none";
-  }
-
-  function manageCookies() {
-    window.location.href = "pengaturan-cookies.html"; // GANTI ALERT DENGAN INI
-  }
-
-  window.onload = function() {
-    if(getCookie("userConsent") !== "accepted") {
-      document.getElementById("cookie-consent").style.display = "block";
-    }
-  };
-
 
 document.getElementById("ugmButton").addEventListener("click", function() {
     window.open("https://lib.ugm.ac.id/", "_blank");

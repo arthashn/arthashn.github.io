@@ -4,26 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perpustakaan Artha Anggita Siahaan</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet"href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="styles.css" rel="stylesheet">
 </head>
 
-<body>
-<div class="header">
-    <h1>Perpustakaan Artha Anggita Siahaan</h1>
-    <p id="datetime"></p> <!-- Date & Time di baris kedua -->
-    <div class="nav-links"> 
-        <a href="about.html">About Me</a>
-        <a href="contact-us.html">Contact Us</a>
-        <a href="news.html">Berita</a>
-         <a href="tabel.php">Multiplication Table </a>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/perpus-logo.png" alt="Logo" height="40" class="me-2">
+      <span>PERPUSTAKAAN ARTHA</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Tentang Saya</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Hubungi Kami</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Berita</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Multiplication Table</a></li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Cari koleksi..." aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Cari</button>
+      </form>
     </div>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<div id="libraryCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/banner1.png" class="d-block w-100" alt="Banner 1">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner2.png" class="d-block w-100" alt="Banner 2">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#libraryCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#libraryCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
 </div>
-<body>
-    <h2>Selamat datang di Perpustakaan Artha Anggita Siahaan</h2>
-    <p>Saya membangun website perpustakaan ini untuk pemenuhan tugas mata kuliah <b>Pengembangan Web Perpustakaan Praktik</b> dan meningkatkan pemahaman saya tentang <i>website.</i>
-        Website ini merupakan proyek pertama saya dalam pengembangan website dimana nantinya website ini berisi sumber daya pengetahuan. Semoga website ini dapat berguna bagi pengunjung :). <b>Terima Kasih</b></p>
-    
+
+<!-- Content Example -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mb-4" data-aos="fade-up">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Judul Koleksi</h5>
+          <p class="card-text">Deskripsi singkat tentang koleksi buku atau layanan perpustakaan.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Layanan Digital</h5>
+          <p class="card-text">Akses ke jurnal, e-book, dan sumber daya online lainnya.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <h2>Kolaborasi dengan Perpustakaan lainnya</h2>
 <div class="button-container">

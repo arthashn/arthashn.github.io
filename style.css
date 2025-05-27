@@ -6,7 +6,7 @@
 }
 	
 body {
-    font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: #f0f1f2;
     color: #333;
@@ -43,6 +43,19 @@ h2 {
     margin-top: 20px;
     text-align: center;
     color: #688a9e;
+}
+
+
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 #datetime {

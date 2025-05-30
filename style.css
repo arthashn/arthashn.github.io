@@ -51,11 +51,11 @@ h2 {
   font-size: 2em;
   margin-top: 20px;
   text-align: center;
-  color: #224559;
+  color: #9ba3ab;
 }
 .custom-navbar {
   background-color: #224559 !important;
-  color: white;
+  color: #9ba3ab;
 }
 /* Tanggal dan waktu */
 #datetime {

@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container">
       <div class="header">
     <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -39,7 +39,46 @@
   </div>
 </nav>
     <p id="datetime"></p> <!-- Date & Time di baris kedua -->
+<!-- Carousel -->
+<div id="libraryCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/banner1.png" class="d-block w-100" alt="Banner 1">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner2.png" class="d-block w-100" alt="Banner 2">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#libraryCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#libraryCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
 
+<!-- Content Example -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mb-4" data-aos="fade-up">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Judul Koleksi</h5>
+          <p class="card-text">Deskripsi singkat tentang koleksi buku atau layanan perpustakaan.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Layanan Digital</h5>
+          <p class="card-text">Akses ke jurnal, e-book, dan sumber daya online lainnya.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
 <body>
     <h2>Selamat datang di Perpustakaan Artha Anggita Siahaan</h2>
     <p>Saya membangun website perpustakaan ini untuk pemenuhan tugas mata kuliah <b>Pengembangan Web Perpustakaan Praktik</b> dan meningkatkan pemahaman saya tentang <i>website.</i>

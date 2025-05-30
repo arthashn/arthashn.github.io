@@ -181,39 +181,19 @@ footer p {
 }
 
 /* Kartu berita */
-.card {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.card-content {
-  padding: 15px;
-}
-
-.card-title {
-  font-size: 16px;
-  color: #0056cc;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.card-info {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 5px;
-}
+.main-content {
+      background-color: #fff;
+      padding: 40px;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    }
+    .card-title {
+      font-weight: bold;
+    }
+    .card-text {
+      color: #444;
+    }
 
 /* Tombol */
 .btn {

@@ -51,7 +51,8 @@ function setCookie(name, value, days) {
   }
 
 
-document.getElementById("ugmButton").addEventListener("click", function() {
-    window.open("https://lib.ugm.ac.id/", "_blank");
-});
+  document.getElementById("ugmButton").addEventListener("click", function() {
+    window.open("https://lib.ugm.ac.id/", "_blank"); // membuka di tab baru
+  });
+
 

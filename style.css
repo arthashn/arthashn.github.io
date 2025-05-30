@@ -1,5 +1,5 @@
 /* Reset dan dasar */
-* {
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,15 +8,19 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #9ba3ab;
-  color: #133a61;
+  background-color: #b1b5ba;
+  color: #333;
   padding: 20px;
   padding-bottom: 100px;
 }
 
 /* Header */
-.header {
+.custom-navbar {
   background-color: #224559 !important;
+  color: #9ba3ab;
+}
+.header {
+  background-color: #224559!important;
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -51,12 +55,9 @@ h2 {
   font-size: 2em;
   margin-top: 20px;
   text-align: center;
-  color: #9ba3ab;
+  color: #688a9e;
 }
-.custom-navbar {
-  background-color: #224559 !important;
-  color: #9ba3ab;
-}
+
 /* Tanggal dan waktu */
 #datetime {
   font-size: 1em;

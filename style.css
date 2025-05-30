@@ -41,6 +41,9 @@ body {
   text-decoration: underline;
 }
 
+.custom-navbar {
+  background-color: #224559 !important;
+}
 .navbar-brand span {
   font-weight: bold;
   font-size: 1.2rem;

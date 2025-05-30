@@ -1,5 +1,4 @@
-/* Reset dan dasar */
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,11 +11,6 @@ body {
   color: #333;
   padding: 20px;
   padding-bottom: 100px;
-}
-
-.main-content {
-  background-color: rgba(255, 255, 255, 0.9); /* transparansi 90% */
-  backdrop-filter: blur(5px); /* efek blur untuk tampilan modern */
 }
 
 /* Header */
@@ -37,7 +31,6 @@ body {
 }
 
 .header a,
-.nav-links a {
   color: #fff;
   margin: 0 15px;
   text-decoration: none;
@@ -80,11 +73,12 @@ h2 {
 /* Tabel */
 table {
   margin: 20px auto;
-  width: 60%;
+  width: 100%;
   border-collapse: collapse;
   background-color: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  max-width: 800px;
 }
 
 th {
@@ -105,6 +99,9 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #ffffff;
 }
+tr:hover {
+  background-color: #e0f7fa;
+}
 
 ul li a[href="https://lib.ugm.ac.id/"] {
   font-weight: bold;
@@ -122,7 +119,7 @@ footer {
   font-weight: bold;
   text-align: center;
   padding: 20px 0;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   z-index: 999;
@@ -168,6 +165,7 @@ footer p {
 
 #ugmButton:hover {
   background-color: #0056b3;
+  transform: scale(1.05);
 }
 
 /* Berita / Event */
@@ -187,12 +185,13 @@ footer p {
 
 /* Kartu berita */
 .main-content {
-      background-color: #fff;
-      padding: 40px;
-      margin-top: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.05);
-    }
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
     .card-title {
       font-weight: bold;
     }

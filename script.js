@@ -55,4 +55,25 @@ function setCookie(name, value, days) {
     window.open("https://lib.ugm.ac.id/", "_blank"); // membuka di tab baru
   });
 
+document.addEventListener("DOMContentLoaded", function () {
+    document.body.classList.add("fade-in");
 
+    // Cookie consent handling
+    const cookiePopup = document.getElementById("cookieConsent");
+    const acceptBtn = document.getElementById("acceptCookies");
+    const rejectBtn = document.getElementById("rejectCookies");
+
+    if (!getCookie("cookieConsent")) {
+        cookiePopup.classList.add("show");
+    }
+
+    acceptBtn.addEventListener("click", function () {
+        setCookie("cookieConsent", "accepted", 30);
+        cookiePopup.classList.remove("show");
+    });
+
+    rejectBtn.addEventListener("click", function () {
+        setCookie("cookieConsent", "rejected", 30);
+        cookiePopup.classList.remove("show");
+    });
+});
